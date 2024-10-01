@@ -1,0 +1,41 @@
+.select {
+  position: relative;
+  padding: 4px 6px 4px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 96px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #d4d4d4;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px;
+}
+
+.text {
+  font-weight: 500;
+  color: black;
+}
+
+.options {
+  font-weight: 400;
+  color: black;
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  top: calc(100% + 4px);
+  border-radius: 4px;
+  border: 1.5px solid #d4d4d4;
+  background-color: white;
+}
+
+.option {
+  cursor: pointer;
+  width: 100%;
+  padding: 4px 10px;
+}
+
+.option:hover {
+  background-color: #e3e3e3;
+}

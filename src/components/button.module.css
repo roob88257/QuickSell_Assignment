@@ -1,0 +1,20 @@
+.btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #111827;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 6px 4px;
+  width: 100px;
+  background-color: white;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+}
